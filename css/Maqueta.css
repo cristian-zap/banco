@@ -9,10 +9,25 @@ body{
 
 }
 
+
 header{
-    padding: 50px;
+    padding: 10px 40px;
     background-color: aquamarine;
     text-align: center;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#Imagen {
+    width: 150px;
+    height: 150px;
+}
+
+header > h1{
+    text-align: right;
+    margin-left: 400px;
+    padding-top: 70px;
 }
 
 nav{
@@ -23,7 +38,7 @@ nav{
 
 nav a {
     color: aliceblue;
-    padding: 14px 20px;
+    padding: 14px 5px;
     text-decoration: none;
 }
 
